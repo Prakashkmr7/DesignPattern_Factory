@@ -1,6 +1,5 @@
 package FactoryDesignPattern.components;
 
-import FactoryDesignPattern.UIFactory;
 
 public class AndroidUIFactory implements UIFactory{
 

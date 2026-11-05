@@ -1,8 +1,9 @@
 package FactoryDesignPattern.components;
 
-import FactoryDesignPattern.UIFactory;
 
 //why name is UIFactoryFactory - as its Factory for UIFactory
+//keeping all the if condition of UIFactory code.
+
 public class UIFactoryFactory {
 	
 	public static UIFactory createUIFactory(SupportedPlatform platform)

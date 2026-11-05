@@ -1,7 +1,5 @@
 package FactoryDesignPattern.components;
 
-import FactoryDesignPattern.UIFactory;
-
 public class IosUIFactory implements UIFactory{
 
 	@Override
